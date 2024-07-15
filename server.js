@@ -131,7 +131,7 @@ app.get("/api/customers", (req, res) => {
 });
 
 // Transactions route
-app.get("api/transactions", (req, res) => {
+app.get("/api/transactions", (req, res) => {
   res.json(transactions);
 });
 
